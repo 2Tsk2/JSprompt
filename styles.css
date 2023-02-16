@@ -9,24 +9,57 @@ body {
 .number{
     text-align: center;
 }
-.initialInputOutput-container{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    
-}
+
 .initialInputOut{
     background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
     font-size: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 200px;
     box-shadow: 3px 3px rgba(92, 107, 92, 0.668);
+    display: inline-block;
 
+
+}
+
+.celsius{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    box-shadow: 3px 3px rgba(92, 107, 92, 0.668);
+    display: inline-block;
+}
+
+/**make a container that aligns both the class .celsius and .initialInputOut in a row **/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.farenheit{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    box-shadow: 3px 3px rgba(92, 107, 92, 0.668);
+    display: inline-block;
 }
